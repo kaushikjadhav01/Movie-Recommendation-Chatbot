@@ -1,0 +1,1140 @@
+{
+  "name": "Kelly",
+  "intents": [
+    {
+      "intent": "votes",
+      "examples": [
+        {
+          "text": "what is the rating for the movie?"
+        },
+        {
+          "text": "what about the movie rating"
+        },
+        {
+          "text": "ratings"
+        },
+        {
+          "text": "how much rating did the movie receive?"
+        },
+        {
+          "text": "what is the recommendation rating?"
+        },
+        {
+          "text": "would anybody recommend watching this movie?"
+        },
+        {
+          "text": "how good is the movie?"
+        },
+        {
+          "text": "is the movie worst?"
+        },
+        {
+          "text": "is the movie best?"
+        },
+        {
+          "text": "is this movie good or bad?"
+        },
+        {
+          "text": "vote average"
+        },
+        {
+          "text": "rating"
+        },
+        {
+          "text": "what is the average votes for the movie?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "vote_count",
+      "examples": [
+        {
+          "text": "people who recommended this movie"
+        },
+        {
+          "text": "how many people voted for this movie?"
+        },
+        {
+          "text": "vote count"
+        },
+        {
+          "text": "how many people recommended this movie?"
+        },
+        {
+          "text": "how much votes did the movie receive?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "adult_content",
+      "examples": [
+        {
+          "text": "Movie PG rating"
+        },
+        {
+          "text": "Parental Guidance"
+        },
+        {
+          "text": "adult rated"
+        },
+        {
+          "text": "adult movie"
+        },
+        {
+          "text": "kids movie"
+        },
+        {
+          "text": "can i watch this movie with kids?"
+        },
+        {
+          "text": "is this movie adult rated?"
+        },
+        {
+          "text": "Can kids watch this movie?"
+        },
+        {
+          "text": "type of content"
+        },
+        {
+          "text": "kids content"
+        },
+        {
+          "text": "adult content"
+        },
+        {
+          "text": "PG"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "overview",
+      "examples": [
+        {
+          "text": "describe this movie to me"
+        },
+        {
+          "text": "movie details"
+        },
+        {
+          "text": "tell me more about this movie"
+        },
+        {
+          "text": "movie overview"
+        },
+        {
+          "text": "what is the movie about?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "revenue",
+      "examples": [
+        {
+          "text": "movie box office collection"
+        },
+        {
+          "text": "movie revenue"
+        },
+        {
+          "text": "how much did the movie make?"
+        },
+        {
+          "text": "box office collection"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "budget",
+      "examples": [
+        {
+          "text": "movie budget"
+        },
+        {
+          "text": "budget of the movie"
+        },
+        {
+          "text": "cost to make the movie"
+        },
+        {
+          "text": "budget"
+        },
+        {
+          "text": "movie cost"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "imdb",
+      "examples": [
+        {
+          "text": "Internet Movie Database link"
+        },
+        {
+          "text": "show me the movie link"
+        },
+        {
+          "text": "imdb link"
+        },
+        {
+          "text": "take me to the movie url"
+        },
+        {
+          "text": "url"
+        },
+        {
+          "text": "imdb"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "hello",
+      "examples": [
+        {
+          "text": "bonjour"
+        },
+        {
+          "text": "ahoy"
+        },
+        {
+          "text": "howdy"
+        },
+        {
+          "text": "u there"
+        },
+        {
+          "text": "good evening"
+        },
+        {
+          "text": "good afternoon"
+        },
+        {
+          "text": "good morning"
+        },
+        {
+          "text": "hello"
+        },
+        {
+          "text": "are you there"
+        },
+        {
+          "text": "yow"
+        },
+        {
+          "text": "hello there"
+        },
+        {
+          "text": "hola"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Goodbye",
+      "examples": [
+        {
+          "text": "catch you soon"
+        },
+        {
+          "text": "Bye"
+        },
+        {
+          "text": "Ciao"
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "Talk to you later"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "recommend_movies",
+      "examples": [
+        {
+          "text": "what about recommendations?"
+        },
+        {
+          "text": "show me movies similar to"
+        },
+        {
+          "text": "recommend movies that are similar"
+        },
+        {
+          "text": "recommend me movies that are related"
+        },
+        {
+          "text": "movie recommendation"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "genre",
+      "examples": [
+        {
+          "text": "horror"
+        },
+        {
+          "text": "international"
+        },
+        {
+          "text": "laugh"
+        },
+        {
+          "text": "lol"
+        },
+        {
+          "text": "love"
+        },
+        {
+          "text": "music"
+        },
+        {
+          "text": "musical"
+        },
+        {
+          "text": "mystery"
+        },
+        {
+          "text": "non-fiction"
+        },
+        {
+          "text": "nonfiction"
+        },
+        {
+          "text": "other language"
+        },
+        {
+          "text": "romance"
+        },
+        {
+          "text": "sci-fi"
+        },
+        {
+          "text": "science"
+        },
+        {
+          "text": "science fiction"
+        },
+        {
+          "text": "scifi"
+        },
+        {
+          "text": "television"
+        },
+        {
+          "text": "television movie"
+        },
+        {
+          "text": "thriller"
+        },
+        {
+          "text": "tv"
+        },
+        {
+          "text": "tv movie"
+        },
+        {
+          "text": "war"
+        },
+        {
+          "text": "crime"
+        },
+        {
+          "text": "aniplex"
+        },
+        {
+          "text": "animated"
+        },
+        {
+          "text": "anime"
+        },
+        {
+          "text": "animation"
+        },
+        {
+          "text": "adventure"
+        },
+        {
+          "text": "action"
+        },
+        {
+          "text": "western"
+        },
+        {
+          "text": "documentary"
+        },
+        {
+          "text": "fiction"
+        },
+        {
+          "text": "family"
+        },
+        {
+          "text": "drama"
+        },
+        {
+          "text": "comedy"
+        },
+        {
+          "text": "ancient"
+        },
+        {
+          "text": "fantasy movies"
+        },
+        {
+          "text": "type"
+        },
+        {
+          "text": "movie type"
+        },
+        {
+          "text": "what type of movie is this?"
+        },
+        {
+          "text": "what kind of genre is the movie"
+        },
+        {
+          "text": "genre"
+        },
+        {
+          "text": "what is the movie genre"
+        },
+        {
+          "text": "history"
+        },
+        {
+          "text": "funny"
+        },
+        {
+          "text": "foreign"
+        },
+        {
+          "text": "fight"
+        },
+        {
+          "text": "fantasy"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "start_over",
+      "examples": [
+        {
+          "text": "searching for movie"
+        },
+        {
+          "text": "start over"
+        },
+        {
+          "text": "i am looking for movie"
+        },
+        {
+          "text": "help me find this movie"
+        },
+        {
+          "text": "look for another movie"
+        },
+        {
+          "text": "i want to search another movie"
+        },
+        {
+          "text": "show me another movie"
+        },
+        {
+          "text": "find this movie"
+        },
+        {
+          "text": "help me with this movie"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "tmdb",
+      "examples": [
+        {
+          "text": "movie database link"
+        },
+        {
+          "text": "tmdb"
+        },
+        {
+          "text": "other movie links"
+        },
+        {
+          "text": "show me another movie link"
+        },
+        {
+          "text": "another movie url"
+        },
+        {
+          "text": "show me the tmdb url?"
+        },
+        {
+          "text": "The movie database"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "option",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "1",
+          "synonyms": [
+            "option 1",
+            "one"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "2",
+          "synonyms": [
+            "option 2",
+            "two"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "5",
+          "synonyms": [
+            "option 5",
+            "five"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "3",
+          "synonyms": [
+            "option 3",
+            "three"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "4",
+          "synonyms": [
+            "option 4",
+            "four"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "genre",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "war",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "science fiction",
+          "synonyms": [
+            "science",
+            "fiction",
+            "scifi",
+            "sci-fi"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "mystery",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "history",
+          "synonyms": [
+            "ancient"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "horror",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "thriller",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "crime",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "action",
+          "synonyms": [
+            "fight"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "aniplex",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "adventure",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "fantasy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "family",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "comedy",
+          "synonyms": [
+            "lol",
+            "laugh",
+            "funny"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "romance",
+          "synonyms": [
+            "love"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "animation",
+          "synonyms": [
+            "anime",
+            "animated"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "documentary",
+          "synonyms": [
+            "non-fiction",
+            "nonfiction",
+            "non fiction"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "drama",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "tv movie",
+          "synonyms": [
+            "television",
+            "television movie",
+            "tv"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "western",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "music",
+          "synonyms": [
+            "musical"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "foreign",
+          "synonyms": [
+            "other language",
+            "international"
+          ]
+        }
+      ]
+    }
+  ],
+  "language": "en",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "slot",
+      "parent": "node_2_1542751905633",
+      "dialog_node": "slot_13_1542753666916",
+      "previous_sibling": "handler_16_1542753713250"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Provide a movie name to begin"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1542751905633",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_16_1542753713250"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please provide a valid option - 1, 2, 3, 4 or 5"
+      },
+      "parent": "slot_37_1542773544904",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_39_1542773544904",
+      "previous_sibling": "handler_38_1542773544904"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_37_1542773544904",
+      "context": {
+        "option": "@option"
+      },
+      "conditions": "@option",
+      "event_name": "input",
+      "dialog_node": "handler_38_1542773544904"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1542685163446",
+      "event_name": "focus",
+      "dialog_node": "handler_12_1542685163446",
+      "previous_sibling": "handler_11_1542685163446"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_10_1542685163446",
+      "event_name": "input",
+      "dialog_node": "handler_11_1542685163446"
+    },
+    {
+      "type": "slot",
+      "parent": "node_3_1542683770544",
+      "variable": "$genre",
+      "dialog_node": "slot_30_1542756890849"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_30_1542756890849",
+      "event_name": "focus",
+      "dialog_node": "handler_32_1542756890849",
+      "previous_sibling": "handler_31_1542756890849"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_30_1542756890849",
+      "context": {
+        "genre": "@genre"
+      },
+      "conditions": "@genre",
+      "event_name": "input",
+      "dialog_node": "handler_31_1542756890849"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_13_1542753666916",
+      "event_name": "focus",
+      "dialog_node": "handler_15_1542753666916",
+      "previous_sibling": "handler_14_1542753666916"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_13_1542753666916",
+      "event_name": "input",
+      "dialog_node": "handler_14_1542753666916"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1542564914286",
+      "dialog_node": "slot_10_1542685163446"
+    },
+    {
+      "type": "frame",
+      "output": {
+        "text": {
+          "values": [
+            "Got it. Ask me about these things - Recommend similar movies, movie genre, overview, budget, revenue, rating, voters, IMDB or TMDB links, adult content. Go on! I am prepared to answer your questions.",
+            "Gotcha. Ask me about these things - Recommend similar movies, movie genre, overview, budget, revenue, rating, voters, IMDB or TMDB links, adult content. Go on! I am prepared to answer your questions."
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "parent": "node_1_1542751883635",
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "true",
+      "dialog_node": "node_36_1542773185678",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_2_1542751905633",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "standard",
+      "title": "input movie name",
+      "output": {
+        "text": {
+          "values": [
+            "Select the option that closely matches your title search - 1, 2, 3, 4 or 5",
+            "Which options matches your title search - 1, 2, 3, 4 or 5"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "parent": "node_1_1542751883635",
+      "context": {
+        "movie_name": "<?input_text?>"
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_36_1542773185678"
+      },
+      "conditions": "true",
+      "dialog_node": "node_2_1542751905633",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "slot",
+      "parent": "node_36_1542773185678",
+      "variable": "$option",
+      "dialog_node": "slot_37_1542773544904"
+    },
+    {
+      "type": "folder",
+      "title": "movie name condition",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_1_1542751883635",
+      "previous_sibling": "Anything else"
+    },
+    {
+      "type": "frame",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "context": {
+        "currentIntent": "recommend_movies"
+      },
+      "metadata": {},
+      "conditions": "#recommend_movies",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1542564914286",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1544128090935",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "context": {
+        "currentIntent": "tmdb"
+      },
+      "metadata": {},
+      "conditions": "#tmdb",
+      "dialog_node": "node_35_1542759487787",
+      "previous_sibling": "node_34_1542759462267"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        },
+        "deleted_variable": "<? context.remove('currentIntent') ?> <? context.remove('movie_name') ?> <? context.remove('genre') ?> <? context.remove('option') ?>"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1542751479520"
+      },
+      "conditions": "#start_over",
+      "dialog_node": "node_29_1542755058006",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "context": {
+        "currentIntent": "budget"
+      },
+      "metadata": {},
+      "conditions": "#budget",
+      "dialog_node": "node_6_1542683803834",
+      "previous_sibling": "node_5_1542683798702"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "text": {
+          "values": [
+            "I didn't understand. You can try rephrasing.",
+            "Can you reword your statement? I'm not understanding.",
+            "I didn't get your meaning."
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "context": {
+        "currentIntent": "anything_else"
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_1_1542683738927"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "context": {
+        "currentIntent": "revenue"
+      },
+      "metadata": {},
+      "conditions": "#revenue",
+      "dialog_node": "node_4_1542683786450",
+      "previous_sibling": "node_35_1542759487787"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "context": {
+        "currentIntent": "imdb"
+      },
+      "metadata": {},
+      "conditions": "#imdb",
+      "dialog_node": "node_34_1542759462267",
+      "previous_sibling": "node_3_1542683770544"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "context": {
+        "currentIntent": "adult_content"
+      },
+      "metadata": {},
+      "conditions": "#adult_content",
+      "dialog_node": "node_2_1542683761544",
+      "previous_sibling": "node_1_1542647402034"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            ""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "context": {
+        "currentIntent": "votes"
+      },
+      "metadata": {},
+      "conditions": "#votes",
+      "dialog_node": "node_1_1542647402034",
+      "previous_sibling": "node_1_1542564914286"
+    },
+    {
+      "type": "frame",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "context": {
+        "currentIntent": "genre"
+      },
+      "metadata": {},
+      "conditions": "#genre",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1542683770544",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_2_1542683761544",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "See you later",
+            "Ciao",
+            "Bye",
+            "Have fun",
+            "Peace out, homie",
+            "Goodbye"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "actions": [
+        {
+          "name": "end_conversation",
+          "type": "client",
+          "result_variable": "null"
+        }
+      ],
+      "metadata": {},
+      "conditions": "#Goodbye",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1544128090935",
+      "previous_sibling": "node_1_1542751479520"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Please enter a movie name to begin"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "context": {
+        "currentIntent": "hello"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_2_1542751905633"
+      },
+      "conditions": "#hello",
+      "dialog_node": "node_1_1542751479520",
+      "previous_sibling": "node_29_1542755058006"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "context": {
+        "currentIntent": "overview"
+      },
+      "metadata": {},
+      "conditions": "#overview",
+      "dialog_node": "node_5_1542683798702",
+      "previous_sibling": "node_4_1542683786450"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "context": {
+        "currentIntent": "vote_count"
+      },
+      "metadata": {},
+      "conditions": "#vote_count",
+      "dialog_node": "node_1_1542683738927",
+      "previous_sibling": "node_6_1542683803834"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "text": {
+          "values": [
+            "Hello. How can I help you?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "workspace_id": "57478e2b-2634-4e55-8590-c822be105ebe",
+  "counterexamples": [
+    {
+      "text": "movie name"
+    },
+    {
+      "text": "Toy Story"
+    }
+  ],
+  "learning_opt_out": false,
+  "status": "Training"
+}
