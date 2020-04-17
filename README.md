@@ -14,6 +14,13 @@ A few machine learning modules were used to build the recommendation engine and 
 # Note
 Find how the project looks in screenshots folder Or <a href="https://github.com/kaushikjadhav01/Movie-Recommendation-Chatbot/blob/master/screenshots/screenshots.pdf">click here</a>
 
+# Technologies Used
+<li><a href="https://slack.com/intl/en-in/">Slack</a></li>
+<li><a href="https://www.ibm.com/watson">IBM Watson</a></li>
+<li><a href="https://docs.anaconda.com/anaconda/navigator/">Anaconda Navigator</a></li>
+<li><a href="https://pypi.org/project/tabulate/">Tabulate</a></li>
+<li><a href="https://pandas.pydata.org/">Pandas</a></li>
+
 # How to Install and Configure?
 This file will walk you through the steps to setup your bot. Download the entire folder and the follow the steps below.<br>
 Step 1: Create Slack Bot user
