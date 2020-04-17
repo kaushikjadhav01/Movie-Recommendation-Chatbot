@@ -1,0 +1,4 @@
+pandas==0.20.3
+slackclient==1.2.1
+watson-developer-cloud>=2.4.0
+tabulate==0.8.2
