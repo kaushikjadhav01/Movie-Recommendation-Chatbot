@@ -9,17 +9,24 @@ The chatbot uses a recommendation engine to suggest <b>similar movies</b> with t
 <li>IMDB site link</li>
 </ul>
 
-A few machine learning modules were used to build the recommendation engine and Slack API was used to provide the front end. Since the chatbot is hosted on Slack, multiple users can communicate with it at the same time.
+To give a recommendation of similar movies, Cosine Similarity and TFID vectorizer were used. Slack API was used to provide a Front End for the chatbot. IBM Watson was used to link the Python code for Natural Language Processing with the front end hosted on Slack API. Libraries like nltk, sklearn, pandas and nlp were used to perform Natural Language Processing and cater to user queries and responses. Since the chatbot is hosted on Slack, multiple users can communicate with it at the same time.
 
-# Note
-Find how the project looks in screenshots folder Or <a href="https://github.com/kaushikjadhav01/Movie-Recommendation-Chatbot/blob/master/screenshots/screenshots.pdf">click here</a>
+# Screenshots
+<img src="https://github.com/kaushikjadhav01/Movie-Recommendation-Chatbot/blob/master/screenshots/banner1.PNG">
+<img src="https://github.com/kaushikjadhav01/Movie-Recommendation-Chatbot/blob/master/screenshots/banner2.PNG">
+
+Find more screenshots, please visit the screenshots folder Or <a href="https://github.com/kaushikjadhav01/Movie-Recommendation-Chatbot/blob/master/screenshots/screenshots.pdf">click here</a>
 
 # Technologies Used
+<ul>
 <li><a href="https://slack.com/intl/en-in/">Slack</a></li>
 <li><a href="https://www.ibm.com/watson">IBM Watson</a></li>
-<li><a href="https://docs.anaconda.com/anaconda/navigator/">Anaconda Navigator</a></li>
+<li><a href="https://www.nltk.org/">NLTK</a></li>
 <li><a href="https://pypi.org/project/tabulate/">Tabulate</a></li>
 <li><a href="https://pandas.pydata.org/">Pandas</a></li>
+<li><a href="https://scikit-learn.org/">Scikit-learn</a></li>
+<li><a href="https://www.python.org/">Python</a></li>
+</ul>
 
 # How to Install and Configure?
 This file will walk you through the steps to setup your bot. Download the entire folder and the follow the steps below.<br>
