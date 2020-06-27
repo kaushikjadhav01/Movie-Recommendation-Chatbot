@@ -17,6 +17,34 @@ To give a recommendation of similar movies, Cosine Similarity and TFID vectorize
 
 Find more screenshots, please visit the screenshots folder Or <a href="https://github.com/kaushikjadhav01/Movie-Recommendation-Chatbot/blob/master/screenshots/screenshots.pdf">click here</a>
 
+# Technical Concepts
+<b>Natural Language Processing</b> is a subfield of linguistics, computer science, information engineering, and artificial intelligence concerned with the interactions between computers and human (natural) languages, in particular how to program computers to process and analyze large amounts of natural language data.
+Challenges in natural language processing frequently involve speech recognition, natural language understanding, and natural language generation.<br>
+More information can be found <a href="https://en.wikipedia.org/wiki/Natural_language_processing">here</a>
+<br>
+<br>
+<b>Pilot</b> is the stage of development where the chatbot is deployed to a small group of users for testing. Pilots are especially critical for chatbots, because unlike a web application, the range of possible user input is unlimited.<br>
+More information can be found <a href="https://chatbotsmagazine.com/chatbot-vocabulary-10-chatbot-terms-you-need-to-know-3911b1ef31b4">here</a>
+<br>
+<br>
+<b>Proof of Concept (POC)</b> is the stage of development where the chatbot functions properly so long as the input is artificially constrained. A POC demonstrates the potential. POCs are especially useful for emerging technologies that are not fully understood by stakeholders, like chatbots.<br>
+More information can be found <a href="https://chatbotsmagazine.com/chatbot-vocabulary-10-chatbot-terms-you-need-to-know-3911b1ef31b4">here</a>
+<br>
+<br>
+<b>Intent</b>  is the user’s intention. For example, if a user types “show me yesterday’s financial news”, the user’s intent is to retrieve a list of financial headlines. Intents are given a name, often a verb and a noun, such as “showNews”.<br>
+More information can be found <a href="https://chatbotsmagazine.com/chatbot-vocabulary-10-chatbot-terms-you-need-to-know-3911b1ef31b4">here</a>
+<br>
+<br>
+<b>Entities</b> modify an intent. For example, if a user types “show me yesterday’s financial news”, the entities are “yesterday” and “financial”. Entities are given a name, such as “dateTime” and “newsType”. Entities are sometimes referred to as slots.<br>
+More information can be found <a href="https://chatbotsmagazine.com/chatbot-vocabulary-10-chatbot-terms-you-need-to-know-3911b1ef31b4">here</a>
+<br>
+<br>
+<b>Conversational UI</b> are User interfaces based on human speech, either written or spoken. Conversational UIs don’t use buttons, links or other graphical elements. Many chatbots, including Tangowork, mix conversational UI with graphical UI.<br>
+More information can be found <a href="https://chatbotsmagazine.com/chatbot-vocabulary-10-chatbot-terms-you-need-to-know-3911b1ef31b4">here</a>
+<br>
+<br>
+
+
 # Technologies Used
 <ul>
 <li><a href="https://slack.com/intl/en-in/">Slack</a></li>
@@ -74,4 +102,11 @@ Navigate to the folder where the main python script exists and run the code belo
 
 python main.py
 
-
+# Authors
+## Kaushik Jadhav
+<ul>
+<li>Github:https://github.com/kaushikjadhav01</li>
+<li>Medium:https://medium.com/@kaushikjadhav01</li>
+<li>LinkedIn:https://www.linkedin.com/in/kaushikjadhav01/</li>
+<li>Portfolio:http://kaushikjadhav01.github.io/</li>
+</ul>
