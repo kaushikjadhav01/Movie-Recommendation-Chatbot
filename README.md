@@ -1,4 +1,35 @@
+[![DOI](https://zenodo.org/badge/224627422.svg)](https://zenodo.org/doi/10.5281/zenodo.10499163)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/kaushikjadhav01/Movie-Recommendation-Chatbot/blob/master/LICENSE)
+[![Code Coverage](https://codecov.io/gh/NCSU-Fall-2022-SE-Project-Team-11/XpensAuditor---Group-11/branch/master/graphs/badge.svg)](https://codecov.io)
+![GitHub contributors](https://img.shields.io/badge/Contributors-1-brightgreen)
+[![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](https://github.com/kaushikjadhav01/Movie-Recommendation-Chatbot/edit/master/README.md)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/kaushikjadhav01/Movie-Recommendation-Chatbot)
+![GitHub issues](https://img.shields.io/github/issues/kaushikjadhav01/Movie-Recommendation-Chatbot)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/kaushikjadhav01/Movie-Recommendation-Chatbot)
+[![GitHub Repo Size](https://img.shields.io/github/repo-size/kaushikjadhav01/Movie-Recommendation-Chatbot.svg)](https://img.shields.io/github/repo-size/kaushikjadhav01/Movie-Recommendation-Chatbot.svg)
+[![GitHub last commit](https://img.shields.io/github/last-commit/kaushikjadhav01/Movie-Recommendation-Chatbot)](https://github.com/kaushikjadhav01/Movie-Recommendation-Chatbot/commits/master)
+![GitHub language count](https://img.shields.io/github/languages/count/kaushikjadhav01/Movie-Recommendation-Chatbot)
+[![Commit Acitivity](https://img.shields.io/github/commit-activity/m/kaushikjadhav01/Movie-Recommendation-Chatbot)](https://github.com/kaushikjadhav01/Movie-Recommendation-Chatbot)
+[![Code Size](https://img.shields.io/github/languages/code-size/kaushikjadhav01/Movie-Recommendation-Chatbot)](mpp-backend)
+![GitHub forks](https://img.shields.io/github/forks/kaushikjadhav01/Movie-Recommendation-Chatbot?style=social)
+![GitHub stars](https://img.shields.io/github/stars/kaushikjadhav01/Movie-Recommendation-Chatbot?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/kaushikjadhav01/Movie-Recommendation-Chatbot?style=social)
+
 # Movie-Recommendation-Chatbot
+Movie Recommendation Slack chatbot using IBM Watson, nltk, pandas and scikit-learn
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#system-description-and-functions">System Description and Functions</a></li>
+    <li><a href="#built-with">Built With</a></li>
+    <li><a href="#installation">Installation</a></li>
+    <li><a href="#authors">Authors</a></li>
+    <li><a href="#links">Links</a></li>
+  </ol>
+</details>
+
+## System Description and Functions
 The chatbot uses a recommendation engine to suggest <b>similar movies</b> with their IMDB links and posters. In addition, it also provides information about the following properties of the movie input by the user:
 <ul>
 <li>movie genre</li>
@@ -17,46 +48,15 @@ To give a recommendation of similar movies, Cosine Similarity and TFID vectorize
 
 Find more screenshots, please visit the screenshots folder Or <a href="https://github.com/kaushikjadhav01/Movie-Recommendation-Chatbot/blob/master/screenshots/screenshots.pdf">click here</a>
 
-# Technical Concepts
-<b>Natural Language Processing</b> is a subfield of linguistics, computer science, information engineering, and artificial intelligence concerned with the interactions between computers and human (natural) languages, in particular how to program computers to process and analyze large amounts of natural language data.
-Challenges in natural language processing frequently involve speech recognition, natural language understanding, and natural language generation.<br>
-More information can be found <a href="https://en.wikipedia.org/wiki/Natural_language_processing">here</a>
-<br>
-<br>
-<b>Pilot</b> is the stage of development where the chatbot is deployed to a small group of users for testing. Pilots are especially critical for chatbots, because unlike a web application, the range of possible user input is unlimited.<br>
-More information can be found <a href="https://chatbotsmagazine.com/chatbot-vocabulary-10-chatbot-terms-you-need-to-know-3911b1ef31b4">here</a>
-<br>
-<br>
-<b>Proof of Concept (POC)</b> is the stage of development where the chatbot functions properly so long as the input is artificially constrained. A POC demonstrates the potential. POCs are especially useful for emerging technologies that are not fully understood by stakeholders, like chatbots.<br>
-More information can be found <a href="https://chatbotsmagazine.com/chatbot-vocabulary-10-chatbot-terms-you-need-to-know-3911b1ef31b4">here</a>
-<br>
-<br>
-<b>Intent</b>  is the user’s intention. For example, if a user types “show me yesterday’s financial news”, the user’s intent is to retrieve a list of financial headlines. Intents are given a name, often a verb and a noun, such as “showNews”.<br>
-More information can be found <a href="https://chatbotsmagazine.com/chatbot-vocabulary-10-chatbot-terms-you-need-to-know-3911b1ef31b4">here</a>
-<br>
-<br>
-<b>Entities</b> modify an intent. For example, if a user types “show me yesterday’s financial news”, the entities are “yesterday” and “financial”. Entities are given a name, such as “dateTime” and “newsType”. Entities are sometimes referred to as slots.<br>
-More information can be found <a href="https://chatbotsmagazine.com/chatbot-vocabulary-10-chatbot-terms-you-need-to-know-3911b1ef31b4">here</a>
-<br>
-<br>
-<b>Conversational UI</b> are User interfaces based on human speech, either written or spoken. Conversational UIs don’t use buttons, links or other graphical elements. Many chatbots, including Tangowork, mix conversational UI with graphical UI.<br>
-More information can be found <a href="https://chatbotsmagazine.com/chatbot-vocabulary-10-chatbot-terms-you-need-to-know-3911b1ef31b4">here</a>
-<br>
-<br>
+## Built With
+![IBM Watson](https://img.shields.io/badge/IBM_Watson-blue?style=for-the-badge&amp;logo=ibm&amp;logoColor=white)
+![Slack](https://img.shields.io/badge/Slack-A10E3B?style=for-the-badge&amp;logo=slack&amp;logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-323330?style=for-the-badge&logo=pandas&logoColor=F7DF1E)
+![NLTK](https://img.shields.io/badge/NLTK-006699?style=for-the-badge&logo=nltk&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit_learn-E34F26?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
-
-# Technologies Used
-<ul>
-<li><a href="https://slack.com/intl/en-in/">Slack</a></li>
-<li><a href="https://www.ibm.com/watson">IBM Watson</a></li>
-<li><a href="https://www.nltk.org/">NLTK</a></li>
-<li><a href="https://pypi.org/project/tabulate/">Tabulate</a></li>
-<li><a href="https://pandas.pydata.org/">Pandas</a></li>
-<li><a href="https://scikit-learn.org/">Scikit-learn</a></li>
-<li><a href="https://www.python.org/">Python</a></li>
-</ul>
-
-# How to Install and Configure?
+## Installation
 This file will walk you through the steps to setup your bot. Download the entire folder and the follow the steps below.<br>
 Step 1: Create Slack Bot user
 Please follows the instructions in the link below to create a Slack App.
@@ -102,11 +102,22 @@ Navigate to the folder where the main python script exists and run the code belo
 
 python main.py
 
-# Authors
-## Kaushik Jadhav
+## Authors
+### Kaushik Jadhav
 <ul>
-<li>Github:https://github.com/kaushikjadhav01</li>
-<li>Medium:https://medium.com/@kaushikjadhav01</li>
-<li>LinkedIn:https://www.linkedin.com/in/kaushikjadhav01/</li>
-<li>Portfolio:http://kaushikjadhav01.github.io/</li>
+<li>Github: https://github.com/kaushikjadhav01</li>
+<li>Medium: https://medium.com/@kaushikjadhav01</li>
+<li>LinkedIn: https://www.linkedin.com/in/kaushikjadhav01/</li>
+<li>Portfolio: http://kajadhav.me/</li>
+<li>Linked In: https://www.linkedin.com/in/kajadhav/
+<li>Dev.to: https://dev.to/kaushikjadhav01
+<li>Codesignal: https://app.codesignal.com/profile/kaushik_j_vtc
+<li>Google Scholar: https://scholar.google.com/citations?user=iRYcFi0AAAAJ
+<li>Daily.dev: https://app.daily.dev/kaushikjadhav01
+<li>Google devs: https://developers.google.com/profile/u/kaushikjadhav01
+<li>Stack Overflow: https://stackoverflow.com/users/21890981/kaushik-jadhav
 </ul>
+
+## Links
+* [Issue tracker](https://github.com/kaushikjadhav01/Movie-Recommendation-Chatbot/issues)
+* [Source code](https://github.com/kaushikjadhav01/Movie-Recommendation-Chatbot)
